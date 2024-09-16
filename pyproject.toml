@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "Tender_Management_API"
+version = "0.1.0"
+description = "API for managing tenders and proposals. The main API functions include tender management (create, edit, get list) and proposal management (create, edit, get list)."
+authors = ["Pavel Lyubimov <prlyubimov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.3"
+fastapi = "^0.114.0"
+sqlalchemy = "^2.0.34"
+pydantic = "^2.9.0"
+uvicorn = "^0.30.6"
+pydantic-settings = "^2.5.2"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
